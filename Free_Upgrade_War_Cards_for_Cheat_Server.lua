@@ -1,7 +1,7 @@
 local bit32 = false
 local melon = {}
 if gg.getTargetInfo().x64 then
-  melon = gg.makeRequest("https://raw.githubusercontent.com/SimpleCodeStudio/GG-SimCity-BuildIt-Trainer/refs/heads/main/64bit-Pointers%26Ofsets.lua")
+  melon = gg.makeRequest("https://github.com/bhai75/GG-SimCity-BuildIt-Trainer/blob/main/64bit-Pointers%26Ofsets.lua")
   else
   bit32 = true
   melon = gg.makeRequest("https://raw.githubusercontent.com/SimpleCodeStudio/GG-SimCity-BuildIt-Trainer/refs/heads/main/32bit-Pointers%26Ofsets.lua")
